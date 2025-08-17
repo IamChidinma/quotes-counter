@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+.quote-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.quote-count {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.quote-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.quote-button:hover {
+  background: #5a67d8;
+}
